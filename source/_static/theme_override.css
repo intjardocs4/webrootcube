@@ -1,0 +1,52 @@
+/* Hide all navigation & version boxes */
+.wy-nav-side,
+.wy-side-scroll,
+.wy-nav-top,
+.rst-versions,
+#rtd-toolbar,
+.wy-breadcrumbs {
+  display: none !important;
+}
+
+/* Page background */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9edf1 !important; /* force page background */
+  color: #222 !important;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+/* Make content container full width with padding */
+.wy-grid-for-nav,
+.wy-nav-content-wrap,
+.wy-nav-content,
+div.document {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 1400px !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Content background */
+div.document {
+  padding: 2rem 2rem !important; /* equal padding */
+  background-color: #fdfdfd !important; /* light content background */
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: bold !important;
+  color: #0a4b8c !important;
+  margin-top: 1.4em !important;
+}
+h1 {
+  border-bottom: 3px solid #0a4b8c !important;
+  padding-bottom: 8px !important;
+}
